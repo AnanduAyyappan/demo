@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/010/820/720/original/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+  background-color: #0c1033;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  width: 160px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the submit button when hovered */
+button[type="submit"]:hover {
+  background-color: #06023f;
+}
+
+/* Additional styling for the container */
+.container {
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Style for labels */
+label {
+  display: inline-block;
+  width: 120px;
+  height: 60;
+  text-align: right;
+}
+
+/* Style for text input fields */
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+  padding: 5;
+  font-size: 16;
+}
+
+/* Margin for the submit button */
+button[type="submit"] {
+  margin-top: 20px;
+}
+
+/* Style for the image button */
+.image-button {
+  width: 30px; /* Adjust the width as desired */
+  height: 30px; /* Adjust the height as desired */
+}
